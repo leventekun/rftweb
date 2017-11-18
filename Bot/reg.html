@@ -1,15 +1,19 @@
+<?php include('reg.php') ?>
+<!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="alap.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+<meta charset="UTF-8">
 <title>regisztráció</title>
 <center><h1>Regisztráció</h1></center>
 </head>
 <body>
 <form action="/action_page.php">
   E-mail: <input type="text" name="email"><br>
-  Jelszó: <input type="text" name="passw"><br>
+  Jelszó: <input type="text" name="password"><br>
   Jelszó újra: <input type="text" name="passwd"><br>
   <input type="submit" value="Regisztráció">
 </form>
+<center><input type="button" onClick="location.href='../Bot/index.html'" value="Vissza a bejelentkezéshez"></center>
 </body>
 </html>
