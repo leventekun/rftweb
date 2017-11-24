@@ -8,14 +8,16 @@ header("location: profile.php");
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="style.css">
+<meta charset="UTF-8">
 <title>Login</title>
 <center><h1>Login</h1></center>
 </head>
 <body>
-<form action="/action_page.php">
+<form action="/action_page.php"> <!--ezt irjátok át amire kell az actiont-->
   E-mail: <input type="text" name="email"><br>
   Jelszó: <input type="password" name="password"><br>
   <input type="submit" value="Belépés">
+  <input type="button" onClick="location.href='../Bot/reg.html'" value="Regisztráció">
 </form>
 </body>
 </html>
